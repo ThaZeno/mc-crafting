@@ -48,6 +48,7 @@ let gifArr = [
 ]
 
 // This is if the query is found in the gif array 
+try {
 if (gifArr.indexOf(finalQuery) !== -1) {
     let imgLink = `https://www.minecraftcrafting.info/imgs/craft_${finalQuery}.gif`
     console.log(imgLink)
@@ -57,4 +58,9 @@ if (gifArr.indexOf(finalQuery) !== -1) {
 else {
     let imgLink = `https://www.minecraftcrafting.info/imgs/craft_${finalQuery}.png`
     connsole.Log(imgLink)
+}
+} catch (e) {
+    
+    // Error management
+    console.log(e)
 }
