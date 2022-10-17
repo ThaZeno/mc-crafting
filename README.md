@@ -9,4 +9,5 @@ To integrate this into your code, simply get an input from a user under the form
 ## Extras
 
 • Feel free to use this code in any way you feel appropriate, even for commercial uses. 
+
 • It's obvious that this code could be optimized to negate errors due to misspelling or the item formatting on the website, but this is one of the simplest ways of almost reliably retrieving these images. 
