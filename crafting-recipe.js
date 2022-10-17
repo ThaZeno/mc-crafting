@@ -1,5 +1,5 @@
 // Insert your own query here or prompt a user to enter one 
-let rawQuery = `chestplates`
+let rawQuery = `QUERY_HERE` // Eg. Chestplates
 
 // Getting all characters to lower case (all formatted that way on crafting website)
 let refQuery = rawQuery.toLowerCase()
